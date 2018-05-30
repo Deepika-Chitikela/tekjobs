@@ -1,0 +1,16 @@
+.header{
+    height: 95vh;
+    position: relative;
+    background-color: $color-background-orangeyellow;
+    background-size: cover;
+    background-position: top;
+&__box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    align-content: center;
+    display: inline;
+   }
+}  
+
